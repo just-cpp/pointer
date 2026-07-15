@@ -50,7 +50,9 @@
   gcc -m64 -c main.cpp
   gcc -m64 -o example main.o
   ```
-  * 32bit로 빌드 (단, 64bit gcc가 설치되 환경에서는 libc6-dev-i386와 gcc-multilib 같은 32bit용 개발 패키지가 설치되어 있어야 함)
+  <br/>
+  
+  * 32bit로 빌드 (단, 64bit gcc가 설치된 환경에서는 libc6-dev-i386와 gcc-multilib 같은 32bit용 개발 패키지가 설치되어 있어야 함)
   ```
   gcc -m32 -c main.cpp
   gcc -m32 -o example main.o
